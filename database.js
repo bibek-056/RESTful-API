@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 //connection to the MySQL server in the loaclhost.
+// CREATE YOUR OWN .env FILE AND STORE THE VALUES FOR CONNECTION TO OUR LOCAL HOST
 
 const pool = mysql.createPool({
     host: process.env.MYSQL_HOST,
